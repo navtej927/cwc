@@ -1,6 +1,6 @@
 {
   "name": "cwc-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "dist",
   "publishConfig": {
@@ -22,8 +22,6 @@
     "url": "https://github.com/navtej927/cwc-core/issues"
   },
   "homepage": "https://github.com/navtej927/cwc-core#readme",
-  "devDependencies": {
-  },
   "dependencies": {
     "typescript": "^4.8.3"
   },
