@@ -1,0 +1,28 @@
+{
+  "name": "cwc-app-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "build": "tsc",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navtej927/cwc-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navtej927/cwc-core/issues"
+  },
+  "homepage": "https://github.com/navtej927/cwc-core#readme",
+  "devDependencies": {
+    "turbo": "^1.4.6"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}

@@ -1,19 +1,24 @@
 {
-  "name": "cwc-core",
-  "version": "1.0.0",
+  "name": "root",
+  "version": "independent",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "prepublish": "lerna run prepublish",
+    "publish-canary": "lerna version prerelease --preid canary --force-publish",
+    "publish-stable": "lerna version --force-publish && release && node ./scripts/release-notes.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/navtej927/cwc-core.git"
   },
   "workspaces": [
-      "packages/*",
-      "apps/*"
-    ],
+    "packages/*",
+    "apps/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,6 +27,9 @@
   },
   "homepage": "https://github.com/navtej927/cwc-core#readme",
   "devDependencies": {
-    "turbo": "^1.4.6"
+    "turbo": "^1.4.6",
+    "lerna": "^5.5.1"
+  },
+  "dependencies": {
   }
 }

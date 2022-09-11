@@ -1,0 +1,25 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/index.js",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navtej927/cwc-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navtej927/cwc-core/issues"
+  },
+  "homepage": "https://github.com/navtej927/cwc-core#readme",
+  "devDependencies": {
+    "cwc-utils": "*"
+  }
+}
