@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/navtej927/cwc-core#readme",
   "devDependencies": {
-    "cwc-utils": "*"
+    "cwc-utils": "1.0.1"
   }
 }
