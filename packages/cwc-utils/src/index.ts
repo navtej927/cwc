@@ -1,3 +1,4 @@
 export const  UpperCase = (_input: string) => {
-    return _input.trim();
+    console.log("holla");
+    return _input;
 }

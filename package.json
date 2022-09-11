@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "version": "1.0.5",
+  "name": "cwc-core",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,7 @@
     "url": "git+https://github.com/navtej927/cwc-core.git"
   },
   "workspaces": [
-    "packages/*",
-    "apps/*"
+    "packages/*"
   ],
   "keywords": [],
   "author": "",
